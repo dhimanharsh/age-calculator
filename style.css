@@ -71,7 +71,7 @@ input::placeholder {
   font-size: 2rem;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1550px) {
   main button {
     top: 50%;
     left: 65%;
@@ -95,7 +95,7 @@ input::placeholder {
   main button {
     height: 5rem;
     width: 5rem;
-    top: 53%;
+    top: 51%;
     left: 45%;
   }
   .inputs {
@@ -130,6 +130,10 @@ input::placeholder {
   input::placeholder {
     font-size: 1.5rem;
   }
+  main button {
+ 
+    top: 47%;
+  }
 }
 @media screen and (max-width: 450px) {
   .result-section h2 {
@@ -141,7 +145,7 @@ input::placeholder {
   main button {
     height: 5rem;
     width: 5rem;
-    top: 40%;
+    top: 45%;
     left: 43%;
   }
   input::placeholder {
