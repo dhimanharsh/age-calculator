@@ -1,0 +1,162 @@
+body {
+  background: rgba(230, 230, 250, 0.452);
+}
+main {
+  height: 45rem;
+  margin: 5% auto;
+  width: 50%;
+  border-radius: 25px;
+  border-bottom-right-radius: 100px;
+  padding: 2rem;
+  font-family: "Carme", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.result-section {
+  border-top: 1px solid rgb(230, 230, 250);
+}
+.inputs {
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+.inputs section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.inputs label {
+  font-size: 2rem;
+}
+.inputs input {
+  height: 4rem;
+}
+.result-section {
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+.result-section h2 {
+  color: hsl(259, 100%, 65%);
+  font-size: 7rem;
+  font-family: "Carme", serif;
+  font-weight: 700;
+}
+.result-section p {
+  font-size: 6rem;
+  font-family: "Carme", serif;
+  font-weight: 700;
+  
+}
+.result-section section {
+  height: 32.33%;
+  display: flex;
+  align-items: center;
+}
+main button {
+  height: 8rem;
+  width: 8rem;
+  background-color: hsl(259, 100%, 65%);
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 65%;
+}
+input::placeholder {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1500px) {
+  main button {
+    top: 50%;
+    left: 65%;
+  }
+  .inputs {
+    height: 20%;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  main button {
+    height: 6rem;
+    width: 6rem;
+    top: 53%;
+  }
+  .inputs input {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 980px) {
+  main button {
+    height: 5rem;
+    width: 5rem;
+    top: 53%;
+    left: 45%;
+  }
+  .inputs {
+    width: 100%;
+  }
+
+  .result-section h2 {
+    font-size: 5rem;
+  }
+  .result-section p {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 790px) {
+  main button {
+    top: 50%;
+  }
+  input::placeholder {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  main{
+    width: 80%;
+  }
+  .inputs label {
+    font-size: 1.5rem;
+  }
+  .inputs input {
+    height: 3rem;
+  }
+  input::placeholder {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width:450px) {
+  .result-section h2 {
+    font-size: 4rem;
+  }
+  .result-section p {
+    font-size: 3rem;
+  }
+  main button {
+    height: 5rem;
+    width: 5rem;
+    top: 48%;
+    left: 43%;
+  }
+  input::placeholder {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width:375px) {
+  main button {
+    height: 4.5rem;
+    width: 4.5rem;
+    top: 46%;
+    left: 43%;
+  }
+  input::placeholder {
+    font-size: 1rem;
+  }
+}
