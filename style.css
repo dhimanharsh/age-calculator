@@ -52,7 +52,6 @@ main {
   font-size: 6rem;
   font-family: "Carme", serif;
   font-weight: 700;
-  
 }
 .result-section section {
   height: 32.33%;
@@ -119,7 +118,7 @@ input::placeholder {
   }
 }
 @media screen and (max-width: 680px) {
-  main{
+  main {
     width: 80%;
   }
   .inputs label {
@@ -132,7 +131,7 @@ input::placeholder {
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
   .result-section h2 {
     font-size: 4rem;
   }
@@ -142,14 +141,14 @@ input::placeholder {
   main button {
     height: 5rem;
     width: 5rem;
-    top: 48%;
+    top: 40%;
     left: 43%;
   }
   input::placeholder {
     font-size: 1rem;
   }
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
   main button {
     height: 4.5rem;
     width: 4.5rem;
