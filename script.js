@@ -20,3 +20,6 @@ function ageCalculator() {
   let c =document.getElementsByTagName('h2')[2].innerText=resultOne
 }
 btn.addEventListener("click", ageCalculator);
+
+
+
