@@ -13,6 +13,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
   background-color: white;
+  position: relative;
 }
 
 .result-section {
@@ -59,13 +60,13 @@ main {
   align-items: center;
 }
 main button {
-  height: 8rem;
-  width: 8rem;
+  height: 7rem;
+  width: 7rem;
   background-color: hsl(259, 100%, 65%);
   border-radius: 50%;
   position: absolute;
-  top: 30%;
-  left: 65%;
+  top: 25%;
+  left: 75%;
 }
 input::placeholder {
   font-size: 2rem;
@@ -73,8 +74,8 @@ input::placeholder {
 
 @media screen and (max-width: 1550px) {
   main button {
-    top: 34%;
-    left: 65%;
+    top: 25%;
+    left: 75%;
   }
   .inputs {
     height: 20%;
@@ -85,7 +86,7 @@ input::placeholder {
   main button {
     height: 6rem;
     width: 6rem;
-    top: 35%;
+    top: 25%;
   }
   .inputs input {
     width: 80%;
@@ -95,8 +96,8 @@ input::placeholder {
   main button {
     height: 5rem;
     width: 5rem;
-    top: 34%;
-    left: 45%;
+    top: 27%;
+    left: 43%;
   }
   .inputs {
     width: 100%;
@@ -110,9 +111,7 @@ input::placeholder {
   }
 }
 @media screen and (max-width: 790px) {
-  main button {
-    top: 30%;
-  }
+ 
   input::placeholder {
     font-size: 1.5rem;
   }
@@ -130,10 +129,7 @@ input::placeholder {
   input::placeholder {
     font-size: 1.5rem;
   }
-  main button {
  
-    top: 32%;
-  }
 }
 @media screen and (max-width: 450px) {
   .result-section h2 {
@@ -145,8 +141,7 @@ input::placeholder {
   main button {
     height: 5rem;
     width: 5rem;
-    top: 30%;
-    left: 43%;
+   
   }
   input::placeholder {
     font-size: 1rem;
@@ -156,8 +151,8 @@ input::placeholder {
   main button {
     height: 4.5rem;
     width: 4.5rem;
-    top: 31%;
-    left: 43%;
+    top: 27%;
+    left: 41%;
   }
   input::placeholder {
     font-size: 1rem;

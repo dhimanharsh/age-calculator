@@ -22,4 +22,3 @@ function ageCalculator() {
 btn.addEventListener("click", ageCalculator);
 
 
-
