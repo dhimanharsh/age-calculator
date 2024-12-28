@@ -8,6 +8,11 @@ function ageCalculator() {
   let month = Number(y.value);
   let year = Number(z.value);
 
+
+  let date = new Date().getDate();
+  let mont = new Date().getMonth() + 1;
+  let currentYear = new Date().getFullYear();
+  
   if (day > 31) {
     window.alert("Day cannot be greater than 31.");
     return;
@@ -21,9 +26,7 @@ function ageCalculator() {
     return;
   }
 
-  let date = new Date().getDate();
-  let mont = new Date().getMonth() + 1;
-  let currentYear = new Date().getFullYear();
+
 
   let resultOne = Math.abs(date - day);
   let resultTwo = Math.abs(mont - month);
